@@ -2,19 +2,19 @@
 Documentation for starting ReadTheDocs!  
 
 1. Create GitHub repository in GitHub  
-1. Clone the GitHub repository  
+2. Clone the GitHub repository  
 ```shell-session  
 $ git clone https://github.com/tksaso/my-doc.git  
 $ cd my-doc  
 ```  
-1. Setup Python+Sphinx  
+3. Setup Python+Sphinx  
 ```shell-session  
 $ python -m venv venv  
 $ source  venv/bin/activate  
 $ pip3 install sphinx sphinx_rtd_theme myst-parser  
 $ sphinx-quickstart docs  
 ```  
-1. Edit the Setting file (docs/conf.py)  
+4. Edit the Setting file (docs/conf.py)  
 ```python:docs/conf.py  
 # Configuration file for the Sphinx documentation builder.  
 #  
@@ -49,27 +49,27 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 ```
 
-1. Create a Requirements file  
+5. Create a Requirements file  
 ```:docs/requirements.txt  
 sphinx  
 sphinx_rtd_theme
 myst-parser
 ```
 
-1. Commit and push to GitHub repository  
+6. Commit and push to GitHub repository  
 ```shell-session
 $ git add .
 $ git commit -m "Initial commit with sphinxs doc"
 $ git piush
 ```
 
-1. Login to readthedocs.org  
+7. Login to readthedocs.org  
 ```
 http://readthedocs.org
 ```
 Login with the GitHub account.  
 
-1. Add a project refering the GitHub repository  
+8. Add a project refering the GitHub repository  
  - [Add a Project] -> Choose the GitHub repository  
  - It requests the prokject name, that should be lile "tksaso-my-doc".  
  - Check the build finished without error  
