@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Galet-nRaD'
+project = 'Test Doc Page'
 copyright = '2025, Tsukasa Aso'
 author = 'Tsukasa Aso'
 
