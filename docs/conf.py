@@ -18,7 +18,7 @@ author = 'Tsukasa Aso'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'myst_parser'
+    'myst_parser',
 ]
 
 templates_path = ['_templates']
